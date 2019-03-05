@@ -1,5 +1,5 @@
 html, body {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Courgette', cursive;
   font-size: 22px;
   color: #e5e5e5;
   height: 100%; }
@@ -14,13 +14,17 @@ a {
   background-size: cover;
   margin-bottom: 0; }
 
+#quote_index {
+  text-shadow: 1px 1px 8px black; }
+
 #quote_text {
   line-height: 1.4em;
   text-shadow: 1px 1px 0px #666, 3px 3px 16px black;
   padding: 0 0.4em; }
 
 #quote_src {
-  text-shadow: 1px 1px 8px black; }
+  text-shadow: 1px 1px 8px black;
+  margin-top: 0.5em; }
 
 .text-focus-in {
   -webkit-animation: text-focus-in 0.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;

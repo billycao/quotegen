@@ -2,7 +2,7 @@ $bg-color: #5479a3;
 $fg-color: #e5e5e5;
 
 html, body {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Courgette', cursive;
   font-size: 22px;
   color: $fg-color;
   height: 100%;
@@ -20,6 +20,9 @@ a {
   margin-bottom: 0;
 }
 
+#quote_index {
+  text-shadow: 1px 1px 8px black;
+}
 
 #quote_text {
   line-height: 1.4em;
@@ -29,6 +32,7 @@ a {
 
 #quote_src {
   text-shadow: 1px 1px 8px black;
+  margin-top: 0.5em;
 }
 
 .text-focus-in {
