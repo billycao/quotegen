@@ -1,17 +1,15 @@
 {
-  "name": "quotesapp",
-  "version": "0.0.0",
-  "private": true,
+  "name": "randomquote",
+  "version": "1.0.0",
+  "description": "Random quote generator by Billy Cao",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "Billy Cao",
+  "license": "ISC",
   "dependencies": {
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.16.0",
-    "hbs": "~4.0.1",
-    "http-errors": "~1.6.2",
-    "morgan": "~1.9.0",
-    "node-sass-middleware": "0.11.0"
+    "express": "^4.16.4",
+    "mustache-express": "^1.2.8"
   }
 }
